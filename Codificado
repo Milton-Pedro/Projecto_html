@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+	<title>Hello, World!</title>
+	<style>
+		@keyframes animacao {
+			from {
+				background-color: red;
+				width: 200px;
+			}
+			to {
+				background-color: yellow;
+				width: 100px;
+			}
+		}
+		@keyframes mudaimg {
+			from {
+				background-image: url("face.png")
+			}
+			to {
+				background-image: url("tiktok.png")
+			}
+		}
+
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		.contain {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			animation-name: animacao;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+		}
+		.mudaimg {
+			background-image: url('face.png');
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 100px;
+			animation-name: mudaimg;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="contain">
+		Milton Pedro
+	</div>
+	<div class="mudaimg">
+
+	</div>
+
+</body>
+</html>
